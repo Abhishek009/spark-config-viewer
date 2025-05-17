@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Abhishek009/spark-config-viewer/src/index.js/static/css/main.29d327fb.css",
-    "main.js": "/Abhishek009/spark-config-viewer/src/index.js/static/js/main.71305426.js",
-    "static/js/453.94d0c5e2.chunk.js": "/Abhishek009/spark-config-viewer/src/index.js/static/js/453.94d0c5e2.chunk.js",
-    "index.html": "/Abhishek009/spark-config-viewer/src/index.js/index.html",
-    "main.29d327fb.css.map": "/Abhishek009/spark-config-viewer/src/index.js/static/css/main.29d327fb.css.map",
-    "main.71305426.js.map": "/Abhishek009/spark-config-viewer/src/index.js/static/js/main.71305426.js.map",
-    "453.94d0c5e2.chunk.js.map": "/Abhishek009/spark-config-viewer/src/index.js/static/js/453.94d0c5e2.chunk.js.map"
+    "main.css": "/Abhishek009/spark-config-viewer/static/css/main.29d327fb.css",
+    "main.js": "/Abhishek009/spark-config-viewer/static/js/main.006b198f.js",
+    "static/js/453.94d0c5e2.chunk.js": "/Abhishek009/spark-config-viewer/static/js/453.94d0c5e2.chunk.js",
+    "index.html": "/Abhishek009/spark-config-viewer/index.html",
+    "main.29d327fb.css.map": "/Abhishek009/spark-config-viewer/static/css/main.29d327fb.css.map",
+    "main.006b198f.js.map": "/Abhishek009/spark-config-viewer/static/js/main.006b198f.js.map",
+    "453.94d0c5e2.chunk.js.map": "/Abhishek009/spark-config-viewer/static/js/453.94d0c5e2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.29d327fb.css",
-    "static/js/main.71305426.js"
+    "static/js/main.006b198f.js"
   ]
 }
