@@ -1,7 +1,7 @@
 {
   "name": "spark-config-viewer",
   "version": "0.1.0",
-  "homepage": "https://abhishek009.github.io/Abhishek009/spark-config-viewer",
+  "homepage": "https://abhishek009.github.io/spark-config-viewer",     
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
