@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/spark-config-viewer/static/css/main.6da3d731.css",
-    "main.js": "/spark-config-viewer/static/js/main.130bbdcb.js",
+    "main.css": "/spark-config-viewer/static/css/main.6933e457.css",
+    "main.js": "/spark-config-viewer/static/js/main.fd4d12fb.js",
     "static/js/453.94d0c5e2.chunk.js": "/spark-config-viewer/static/js/453.94d0c5e2.chunk.js",
     "index.html": "/spark-config-viewer/index.html",
-    "main.6da3d731.css.map": "/spark-config-viewer/static/css/main.6da3d731.css.map",
-    "main.130bbdcb.js.map": "/spark-config-viewer/static/js/main.130bbdcb.js.map",
+    "main.6933e457.css.map": "/spark-config-viewer/static/css/main.6933e457.css.map",
+    "main.fd4d12fb.js.map": "/spark-config-viewer/static/js/main.fd4d12fb.js.map",
     "453.94d0c5e2.chunk.js.map": "/spark-config-viewer/static/js/453.94d0c5e2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6da3d731.css",
-    "static/js/main.130bbdcb.js"
+    "static/css/main.6933e457.css",
+    "static/js/main.fd4d12fb.js"
   ]
 }
