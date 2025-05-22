@@ -1,42 +1,4 @@
 import React, { useState, useEffect } from 'react';
-
-// Assume Tailwind CSS is available in the environment.
-// You would need to include the Tailwind CSS script or build process.
-// For a simple setup, add this to your HTML: <script src="https://cdn.tailwindcss.com"></script>
-
-// Assume the Spark configuration data is available in a JSON file
-// named 'spark-config.json' in the public directory or src directory.
-// You will need to create this file with your configuration data in the grouped format.
-// Example content for spark-config.json:
-/*
-{
-  "Application Properties": [
-    {
-      "name": "spark.app.name",
-      "defaultValue": "(none)",
-      "description": "The name of your application. This will appear in the UI and in log data."
-    },
-    {
-      "name": "spark.driver.cores",
-      "defaultValue": "1",
-      "description": "Number of cores to use for the driver process, only in cluster mode."
-    },
-    // ... add more Application Properties here
-  ],
-  "Runtime Environment": [
-    {
-      "name": "spark.driver.extraClassPath",
-      "defaultValue": "(none)",
-      "description": "Extra classpath entries to prepend to the classpath of the driver. Note: In client mode, this config must be set through the `--driver-class-path` command-line option or in your `spark-defaults.conf` file."
-    },
-    // ... add more Runtime Environment properties here
-  ],
-  // ... add other categories and their configurations
-}
-*/
-// For demonstration, we'll use a direct import here.
-// Make sure you have a file named 'spark-config.json' in the same directory as this component
-// or adjust the import path accordingly.
 import sparkConfigurationsData from './spark-config.json';
 
 
@@ -48,7 +10,7 @@ function ConfigurationItem({ config, category }) {
     return text.includes('\n');
   };
 
-  // Function to check if the description should be displayed as bullet points based on multiple full stops (excluding i.e. and e.g.)
+
   const shouldDisplayAsFullStopBulletPoints = (text) => {
     if (!text) return false;
 
@@ -58,9 +20,6 @@ function ConfigurationItem({ config, category }) {
       return false;
     }
 
-    // Count the number of full stops as a simple heuristic for multiple sentences.
-    // const fullStopCount = text.split('.').length - 1;
-    //return fullStopCount > 1;
   };
 
   // Split the description into sentences if it should be displayed as bullet points
@@ -188,13 +147,9 @@ function App() {
   
  // Effect to load data from the JSON file when the component mounts
   useEffect(() => {
-    // In a real application, you might fetch this data from an API or a static file
-    // using the `fetch` API if the file is in the public directory.
-    // For this example, we directly import the JSON data.
-    // Ensure 'spark-config.json' exists in the correct path and has the grouped structure.
     setAllConfigurations(sparkConfigurationsData);
     setFilteredConfigurations(sparkConfigurationsData); // Initially show all data
-  }, []); // Empty dependency array means this effect runs only once on mount
+  }, []); 
 
   // Effect to filter configurations whenever the search term or allConfigurations changes
   useEffect(() => {
@@ -218,16 +173,6 @@ function App() {
 
     setFilteredConfigurations(filtered);
   }, [searchTerm, allConfigurations]); // Dependencies include searchTerm and allConfigurations
-     
-
-    
-
-      
-
-
-
-  // Effect to filter configurations whenever the search term or allConfigurations changes
-
 
   return (
     <div className="container mx-auto p-4 sm:p-6 bg-gray-100 min-h-screen">
