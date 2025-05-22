@@ -864,7 +864,7 @@
     {
       "name": "spark.storage.unrollMemoryThreshold",
       "defaultValue": "1024 * 1024",
-      "description": "Initial memory to request before unrolling any block."
+      "description": "\nInitial memory to request before unrolling any block."
     },
     {
       "name": "spark.storage.replication.proactive",
@@ -884,22 +884,22 @@
     {
       "name": "spark.cleaner.referenceTracking",
       "defaultValue": "true",
-      "description": "Enables or disables context cleaning."
+      "description": "\nEnables or disables context cleaning."
     },
     {
       "name": "spark.cleaner.referenceTracking.blocking",
       "defaultValue": "true",
-      "description": "Controls whether the cleaning thread should block on cleanup tasks (other than shuffle, which is controlled by spark.cleaner.referenceTracking.blocking.shuffle Spark property)."
+      "description": "\nControls whether the cleaning thread should block on cleanup tasks (other than shuffle, which is controlled by spark.cleaner.referenceTracking.blocking.shuffle Spark property)."
     },
     {
       "name": "spark.cleaner.referenceTracking.blocking.shuffle",
       "defaultValue": "false",
-      "description": "Controls whether the cleaning thread should block on shuffle cleanup tasks."
+      "description": "\nControls whether the cleaning thread should block on shuffle cleanup tasks."
     },
     {
       "name": "spark.cleaner.referenceTracking.cleanCheckpoints",
       "defaultValue": "false",
-      "description": "Controls whether to clean checkpoint files if the reference is out of scope."
+      "description": "\nControls whether to clean checkpoint files if the reference is out of scope."
     }
   ]
 }
